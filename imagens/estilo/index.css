@@ -1,0 +1,115 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-family: 'Special Elite', cursive; ;
+}
+
+header p{
+    padding-bottom: 50px;
+    font-family: 'Special Elite', cursive;
+}
+
+header a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(63, 63, 63, 0.366);
+}
+
+/* fim do header */
+
+body{
+    color: rgb(255, 255, 255)
+}
+
+main{
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    background-color: black
+}
+
+main section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 20px;
+    line-height: 2em;
+
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+main .ft1{
+    background-position: right center;
+    background-image: url('/desafio-cordel/imagens/background001.jpg');
+    background-attachment: fixed;
+    width: 98.4%;
+    box-shadow: inset 8px 8px 10px 0px rgba(0, 0, 0, 0.377) ;
+}
+
+.ft1 p {
+    background-color: rgba(92, 92, 92, 0.366);
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+main .ft2{
+    background-position: center center;
+    background-image: url('/desafio-cordel/imagens/background002.jpg');
+    background-attachment: fixed;
+    width: 98.4%;
+    box-shadow: inset 8px 8px 10px  rgba(0, 0, 0, 0.377) ;
+}
+
+.ft2 p{
+    background-color: rgba(92, 92, 92, 0.466);
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+section > p{
+    padding: 1em;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
