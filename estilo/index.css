@@ -65,7 +65,7 @@ main section{
 
 main .ft1{
     background-position: right center;
-    background-image: url('/desafio-cordel/imagens/background001.jpg');
+    background-image: url('background001.jpg');
     background-attachment: fixed;
     width: 98.4%;
     box-shadow: inset 8px 8px 10px 0px rgba(0, 0, 0, 0.377) ;
@@ -80,7 +80,7 @@ main .ft1{
 
 main .ft2{
     background-position: center center;
-    background-image: url('/desafio-cordel/imagens/background002.jpg');
+    background-image: url('background002.jpg');
     background-attachment: fixed;
     width: 98.4%;
     box-shadow: inset 8px 8px 10px  rgba(0, 0, 0, 0.377) ;
